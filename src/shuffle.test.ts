@@ -1,5 +1,5 @@
-import {describe, expect, it} from 'vitest';
-import {shuffle} from './shuffle.js';
+import { describe, expect, it } from 'vitest';
+import { shuffle } from './shuffle.js';
 
 describe('shuffleWithoutFixedPoints', () => {
   it('returns an array with the same elements', () => {
